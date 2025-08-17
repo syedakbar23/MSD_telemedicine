@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Telemedicine Platform</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f1f3f6;
+      padding-bottom: 60px;
+      background-image: url(
+        https://static.vecteezy.com/system/resources/previews/016/084/083/non_2x/modern-blue-medical-wallpaper-futuristic-medical-icons-geometric-hexagon-shape-vector.jpg
+      );
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    /* Top Navbar */
+    .navbar {
+      background-color: #0077b6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      color: white;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .auth-buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .auth-buttons a {
+      background-color: #0077b6;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .auth-buttons a:hover {
+      background-color: #005f8a;
+    }
+
+    /* Center image */
+    .center-image {
+      display: block;
+      margin: 30px auto;
+      max-width: 500px;
+      width: 90%;
+      border-radius: 10px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Services List */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .service-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .service {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .service h3 {
+      margin: 10px 0;
+      color: #0077b6;
+    }
+
+    .service button {
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .service button:hover {
+      background-color: #005f8a;
+    }
+
+    /* Bottom Navigation */
+    .bottom-nav {
+      background-color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .bottom-nav a {
+      background-color: #0077b6;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .bottom-nav a:hover {
+      background-color: #005f8a;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <!-- Top Navbar -->
+  <div class="navbar">
+    <div class="logo">Telemedicine Platform</div>
+    <div class="auth-buttons">
+      <a href="Sign Up.html">Sign Up</a>
+      <a href="login.html">Login</a>
+    </div>
+  </div>
+
+  <!-- Image in place of signup form -->
+  <img src="dec.jpg" alt="Telemedicine" class="center-image" />
+
+  <!-- Service List -->
+  <div class="container">
+    <div class="service-list">
+      <div class="service">
+        <h3>Consult a Doctor</h3>
+        <button><a href="file4.html" style="color:white;text-decoration:none;">View</a></button>
+      </div>
+      <div class="service">
+        <h3>Hospital Near Me</h3>
+        <button><a href="11.html" style="color:white;text-decoration:none;">View</a></button>
+      </div>
+      <div class="service">
+        <h3>Online Prescription</h3>
+        <button><a href="prescription.html" style="color:white;text-decoration:none;">View</a></button>
+      </div>
+      <div class="service">
+        <h3>AI Suggestions</h3>
+        <button><a href="aichatbox.html" style="color:white;text-decoration:none;">View</a></button>
+      </div>
+      <div class="service">
+        <h3>Lab Tests</h3>
+        <button><a href="triler3.html" style="color:white;text-decoration:none;">Click</a></button>
+      </div>
+      <div class="service">
+        <h3>Health Checkups</h3>
+        <button><a href="trile2.html" style="color:white;text-decoration:none;">Click</a></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <div class="bottom-nav">
+    <a href="trile1.html">🏠 Home</a>
+    <a href="appointement.html">📋 Appointments</a>
+    <a href="profile.html">👤 Account</a>
+  </div>
+</body>
+</html>
